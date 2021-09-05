@@ -9,7 +9,7 @@
   "author": "Alex P",
   "license": "ISC",
   "dependencies": {
-    "@discordjs/opus": "^0.3.2",
-    "discord.js": "^12.2.0"
+    "@discordjs/opus": "^0.3.3",
+    "discord.js": "^12.5.3"
   }
 }

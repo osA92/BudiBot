@@ -1,10 +1,12 @@
 const Discord = require('discord.js');
 const config = require('./botconfig.json');
+const token = require('./token.json')
 const client = new Discord.Client();
 
 let prefix = config.prefix;
 
-client.login(config.token);
+//client.login(config.token);
+client.login(token.token);
 
 function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
